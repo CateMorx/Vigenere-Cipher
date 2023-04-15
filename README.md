@@ -1,6 +1,9 @@
 # Vigenere Cipher
 This is a python program that
 
+
+![Alt Text](Vigenere-Cipher.gif)
+
 # Needed Packages to Install
 Asciimatics
 
