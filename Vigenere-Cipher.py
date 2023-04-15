@@ -1,0 +1,13 @@
+#Created by: Catelyn Joy M.Morco from BSCPE 1-4
+#Assignment 2 (Item 3:The Vigenère Cipher)
+
+#Imports necessary elements
+#Prompts user input for message and key
+#instantiates list for conversion
+#Repeats the key until its' length is the same as the message
+#converts the message into numbers and added to a list
+#converts the key into numbers and added to a list
+#adds the two list together
+#Computes the mod 26 from the result
+#Converts into ciphertext
+#Prints and animates the final output
