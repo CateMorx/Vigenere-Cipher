@@ -16,6 +16,10 @@ output_1=[]
 output_2=[]
 
 #Repeats the key until its' length is the same as the message
+while len(key) < len(message):
+    new_key = key + key
+    key = new_key[:len(message)]
+    
 #converts the message into numbers and added to a list
 #converts the key into numbers and added to a list
 #adds the two list together
