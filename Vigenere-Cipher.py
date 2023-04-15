@@ -47,5 +47,15 @@ for i in (mod):
     number_4= i + 97
     number_4= chr(number_4)
     cipher_text.append(number_4.upper())
-    
+
 #Prints and animates the final output
+my_string= ''.join(cipher_text)
+def input(screen):
+    effects = [
+        Cycle(screen,
+              FigletText(my_string, font= 'big'),
+              int(screen.height / 2-8)),
+        Stars(screen, 200)
+    ]
+    screen.play([Scene(effects,500)])
+Screen.wrapper(input)
