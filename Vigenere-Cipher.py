@@ -24,8 +24,12 @@ while len(key) < len(message):
 for i in (message):
     number= ord(i)-97
     output_1.append(number)
-    
+
 #converts the key into numbers and added to a list
+for i in (key):
+    number_2= ord(i)-97
+    output_2.append(number_2)
+
 #adds the two list together
 #Computes the mod 26 from the result
 #Converts into ciphertext
