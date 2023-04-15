@@ -31,6 +31,10 @@ for i in (key):
     output_2.append(number_2)
 
 #adds the two list together
+add=[]
+for i in range(max(len(output_1), len(output_2))):
+    add.append((output_1[i] if i < len(output_1) else 0) + (output_2[i] if i < len(output_2) else 0))
+    
 #Computes the mod 26 from the result
 #Converts into ciphertext
 #Prints and animates the final output
