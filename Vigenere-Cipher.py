@@ -12,6 +12,9 @@ message = input(str('Write your message: ')).lower()
 key = input(str('Write your key: ')).lower()
 
 #instantiates list for conversion
+output_1=[]
+output_2=[]
+
 #Repeats the key until its' length is the same as the message
 #converts the message into numbers and added to a list
 #converts the key into numbers and added to a list
