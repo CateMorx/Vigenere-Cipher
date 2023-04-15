@@ -2,6 +2,11 @@
 #Assignment 2 (Item 3:The Vigenère Cipher)
 
 #Imports necessary elements
+from asciimatics.effects import Cycle, Stars
+from asciimatics.renderers import FigletText
+from asciimatics.scene import Scene
+from asciimatics.screen import Screen
+
 #Prompts user input for message and key
 #instantiates list for conversion
 #Repeats the key until its' length is the same as the message
