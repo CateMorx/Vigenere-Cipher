@@ -42,4 +42,10 @@ for i in (add):
     mod.append(number_3)
 
 #Converts into ciphertext
+cipher_text=[]
+for i in (mod):
+    number_4= i + 97
+    number_4= chr(number_4)
+    cipher_text.append(number_4.upper())
+    
 #Prints and animates the final output
