@@ -8,6 +8,9 @@ from asciimatics.scene import Scene
 from asciimatics.screen import Screen
 
 #Prompts user input for message and key
+message = input(str('Write your message: ')).lower()
+key = input(str('Write your key: ')).lower()
+
 #instantiates list for conversion
 #Repeats the key until its' length is the same as the message
 #converts the message into numbers and added to a list
