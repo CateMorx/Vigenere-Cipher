@@ -19,8 +19,12 @@ output_2=[]
 while len(key) < len(message):
     new_key = key + key
     key = new_key[:len(message)]
-    
+
 #converts the message into numbers and added to a list
+for i in (message):
+    number= ord(i)-97
+    output_1.append(number)
+    
 #converts the key into numbers and added to a list
 #adds the two list together
 #Computes the mod 26 from the result
